@@ -99,3 +99,5 @@ Variaveis Ordinais: Existe ordem entre os valores.Ex: Escolaridade, Classe Socia
 Dados: Valores assumidos pelas variaveis.
 
 Parâmetro: Valor que representa a população.
+
+## Para acessar o conteúdo relativo a AMOSTRAGEM CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/AMOSTRAGEM.md)
