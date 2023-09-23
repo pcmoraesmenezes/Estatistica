@@ -101,3 +101,5 @@ Dados: Valores assumidos pelas variaveis.
 Parâmetro: Valor que representa a população.
 
 ## Para acessar o conteúdo relativo a AMOSTRAGEM CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/AMOSTRAGEM.md)
+
+## Para acessar o conteúdo relativo a ESTATISTICA DESCRITIVA CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/ESTATISTICADESCRITIVA.md)
