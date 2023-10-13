@@ -107,3 +107,4 @@ Parâmetro: Valor que representa a população.
 ## Para acessar o conteúdo relativo a MEDIDAS DESCRITIVAS CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/MEDIDASDESCRITIVAS.md)
 
 
+## Para acessar o conteúdo relativo a PROBABILIDADE CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/PROBABILIDADE.md)
