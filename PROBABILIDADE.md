@@ -831,3 +831,253 @@ A) 0.89
 B) 0.11
 
 C) 0.39
+
+LISTA DE EXERCICIOS DE PROBABILIDADE
+
+Escreva com suas palavras o que você entende por:
+
+a) Experimento Aleatório
+
+- É um experimento que pode ser repetido em condições similares, mas que não se pode prever o resultado. Por exemplo, lançar um dado.
+
+b) Espaço Amostral
+
+- É o conjunto de todos os resultados possíveis de um experimento aleatório. Por exemplo, lançar um dado, o espaço amostral é {1,2,3,4,5,6}.
+
+c) Evento
+
+- É um subconjunto do espaço amostral. Por exemplo, lançar um dado, o evento A = {2,4,6}.
+
+d) Complementar de um evento
+
+- É o conjunto de todos os resultados possíveis que não pertencem ao evento. Por exemplo, lançar um dado, o evento A = {2,4,6}, o complementar de A é A' = {1,3,5}.
+
+e) União de dois eventos
+
+- É o conjunto de todos os resultados possíveis que pertencem a pelo menos um dos eventos. Por exemplo, lançar um dado, o evento A = {2,4,6} e o evento B = {1,2,3}, a união de A e B é A U B = {1,2,3,4,6}.
+
+f) Interseção de dois eventos
+
+- É o conjunto de todos os resultados possíveis que pertencem a ambos os eventos. Por exemplo, lançar um dado, o evento A = {2,4,6} e o evento B = {1,2,3}, a interseção de A e B é A ∩ B = {2}.
+
+g) Eventos mutuamente exclusivos
+
+---
+
+- São eventos que não podem ocorrer ao mesmo tempo. Por exemplo, lançar um dado, o evento A = {2,4,6} e o evento B = {1,3,5}, são mutuamente exclusivos.
+
+Escreva um espaço amostral para cada experimento abaixo:
+
+a) Uma letra é escolhida entre as letras da palavra PROBABILIDADE
+
+- Ω = {P, R, O, B, A, I, D, L, E}
+
+b) Uma urna contém bolas vermelhas (V), bolas brancas (B) e bolas azuis (A). Uma bola é extraída e observada pela sua cor
+
+- Ω = {V, B, A}
+
+c) Uma moeda é lançada 3 vezes e observado o número de caras
+
+- Ω = {CCC, CCF, CFC, FCC, FCC, FCF, FFC, FFF}
+
+d) De um baralho de 52 cartas, uma e extraida e observada
+
+- Ω = {A♠, 2♠, 3♠, 4♠, 5♠, 6♠, 7♠, 8♠, 9♠, 10♠, J♠, Q♠, K♠, A♥, 2♥, 3♥, 4♥, 5♥, 6♥, 7♥, 8♥, 9♥, 10♥, J♥, Q♥, K♥, A♦, 2♦, 3♦, 4♦, 5♦, 6♦, 7♦, 8♦, 9♦, 10♦, J♦, Q♦, K♦, A♣, 2♣, 3♣, 4♣, 5♣, 6♣, 7♣, 8♣, 9♣, 10♣, J♣, Q♣, K♣}
+
+e_ um casal planeja ter 3 filhos. O sexo de cada criança é observado
+
+- Ω = {MMM, MMF, MFM, FMM, FFM, FMF, MFF, FFF} EM que M representa menino e F representa menina.
+
+---
+
+Uma urna contém 30 bolas enumeradas de 1 a 30. Uma bola é escolhida e observado o seu número. Seja Ω = {1,2,3,..30} Descreva os eventos:
+
+a) O numero obtido é par
+
+- A = {2,4,6,8,...28,30}
+
+b) O numero obtido é impar
+
+- B = {1,3,5,7,...27,29}
+
+c) O numero obtido é primo
+
+- C = {2,3,5,7,11,13,17,19,23,29}
+
+d) O numero obtido é maior que 16
+
+- D = {17,18,19,20,21,22,23,24,25,26,27,28,29,30}
+
+e) O numero obtido é multiplo de 2 e 5
+
+- E = {10,20,30}
+
+f) o numero obtido é multiplo de 3 ou de 8
+
+- F = {3,6,8,9,12,15,18,21,24,27,30}
+
+g) o numero obtido não é multiplo de 6.
+
+G: o numero obtido não é multiplo de 6. H = {6,12,18,24,30}, então G = H'
+
+---
+
+Uma moeda e um dado de 6 faces s˜ao lan¸cados. Seja Ω = {(K, 1),(K, 2),(K, 3),(K, 4),(K, 5),
+(K, 6),(C, 1),(C, 2),(C, 3),(C, 4),(C, 5),(C, 6)}, em que K representa o resultado cara e C representa o resultado coroa. Descreva os eventos:
+
+a) A: ocorre cara
+
+- A = {(K, 1),(K, 2),(K, 3),(K, 4),(K, 5),(K, 6)}
+
+b) Ocorre numero par
+
+- B = {(K, 2),(K, 4),(K, 6),(C, 2),(C, 4),(C, 6)}
+
+c) Ocorre o numero 3.
+
+- C = {(K, 3),(C, 3)}
+
+d) A &#8746; B
+
+- D = {(K, 1),(K, 2),(K, 3),(K, 4),(K, 5),(K, 6),(C, 1),(C, 2),(C, 3),(C, 4),(C, 5),(C, 6)}
+
+e) A &#8745; B
+
+- E = {}
+
+f) A'
+
+- F = {(C, 1),(C, 2),(C, 3),(C, 4),(C, 5),(C, 6)} 
+
+g) C'
+
+- G = {(K, 1),(K, 2),(K, 4),(K, 5),(K, 6),(C, 1),(C, 2),(C, 4),(C, 5),(C, 6)}
+
+---
+
+Numa urna existem duas bolas vermelhas e seis brancas. Sorteando-se uma bola, qual a probabilidade de ela ser vermelha?
+
+2 Bolas vermelhas e 6 brancas, totalizando 8 bolas.
+
+P(Bola vermelha) = 2/8 = 1/4
+
+---
+
+Temos duas moedas, das quais uma ´e perfeita e a outra tem duas caras. Uma das moedas,
+tomadas ao acaso, ´e lan¸cada. Qual ´e a probabilidade de se obter cara?
+
+Uma moeda perfeita e uma moeda com duas caras, totalizando 3 caras.
+
+P(Cara) = 3/4
+
+---
+
+De um baralho de 52 cartas, uma ´e extra´ıda ao acaso. Qual a probabilidade de cada um dos
+eventos abaixo?
+
+a) Ocorre da de copas 
+
+- 13 cartas de copas
+
+P(Copa) = 13/52 = 1/4
+
+b) Ocorre dama 
+
+- 4 damas
+
+P(Dama) = 4/52 = 1/13
+
+c) Ocorre carta de naipe paus
+
+- 13 cartas de paus
+
+P(Paus) = 13/52 = 1/4
+
+d) Ocorre dama ou rei ou valete 
+
+- 4 damas + 4 reis + 4 valetes = 12
+
+P(Dama ou Rei ou Valete) = 12/52 = 3/13
+
+e) Rei e paus 
+
+- 4 reis e 13 paus
+
+P(Rei e Paus) = 4/52 * 13/52 = 1/13
+
+f) Ocorre uma carta que não é rei
+
+- 48 cartas que não são reis
+
+P(Não Rei) = 48/52 = 12/13
+
+---
+
+. Um n´umero ´e escolhido ao acaso entre os 20 inteiros, de 1 a 20. Qual a probabilidade de o
+n´umero escolhido ser:
+
+a) Par
+
+- 10 números pares
+
+P(Par) = 10/20 = 1/2
+
+b) Impar
+
+- 10 números impares
+
+P(Impar) = 10/20 = 1/2
+
+c) Primo
+
+- 8 números primos
+
+P(Primo) = 8/20 = 2/5
+
+d) Quadrado perfeito
+
+- 4 números quadrados perfeitos (1, 4, 9, 16)
+
+P(Quadrado Perfeito) = 4/20 = 1/5
+
+---
+
+Um n´umero ´e escolhido ao acaso entre os 100 inteiros de 1 a 100. Qual a probabilidade de o
+n´umero:
+
+a) Ser multiplo de 9
+
+- 11 números multiplos de 9
+
+P(Multiplo de 9) = 11/100
+
+b) Ser multiplo de 3 e de 4
+
+- 8 números multiplos de 3 e de 4
+
+P(Multiplo de 3 e de 4) = 8/100 = 2/25
+
+c) Ser multiplo de 3 ou de 4
+
+- 50 números multiplos de 3 ou de 4
+
+P(Multiplo de 3 ou de 4) = 50/100 = 1/2
+
+---
+
+Liste os elementos dos seguintes espa¸cos amostrais:
+
+a) O conjunto dos numeros naturais entre 1 e 50 divisiveis por 8
+
+- Ω = {8, 16, 24, 32, 40, 48}
+
+b) O conjunto de resultados quando uma moeda é jogada até que apareça uma coroa ou três caras
+
+- Ω = {C, KC, KKC, KKK} C = coroa e K = coroa
+
+---
+
+
+
+
+
