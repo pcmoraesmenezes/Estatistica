@@ -1077,7 +1077,202 @@ b) O conjunto de resultados quando uma moeda é jogada até que apareça uma cor
 
 ---
 
+Se Ω = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, A = {0, 2, 4, 6, 8}, B = {1, 3, 5, 7, 9}, C = {2, 3, 4, 5} e D =
+{1, 6, 7}, liste os elementos dos eventos correspondentes a:
+
+a) A ∪ C
+
+- A ∪ C = {0,2,3,4,5,6,8}
+
+b) A ∩ B
+
+- A ∩ B = {}
+
+c) ~ C 
+
+- ~ C = {0,1,6,7,8,9}
+
+d) (~C ∩ B ) ∪ B = {1,3,5,6,7,9}
+
+---
+
+Encontre os erros em cada uma das afirmações abaixo:
+
+a) As probabilidades de que um vendedor de carros venda 0, 1, 2 ou 3 carros em qualquer dia
+de fevereiro s˜ao, respectivamente, 0, 19; 0, 38; 0, 29; e 0, 15
+
+A soma das probabilidades é maior que 1, logo está incorreto
+
+b) A probabilidade de que choverá amanhã é de 0,4 e a probabilidade de que não chvoerá é 0,52.
+
+Chover amanhã e não chover amanhã são eventos complementares. Logo a soma de suas probabilidades deveria ser igual a 1.
+
+c) As probabilidades de que uma impressorá cometera 0,1,2,3,4 ou mais erros ao preparar um documento são respectivamente 0,19, 0,34 ; -0,25; 0,43; 0,29
+
+A probabilidade de um evento deve ser um numero entre 0 e 1
+
+d)  Em uma ´unica retirada de cartas de um baralho, a probabilidade de se tirar uma carta de
+copas ´e 1
+4
+, a probabilidade de se tirar ma carta preta ´e 1
+2
+e de selecionar uma carta de copas
+preta ´e de 1
+8
+.
+
+A probabilidade de se tirar uma carta de copas preta é 0.
 
 
+---
 
+. Uma industria automobiliıstica estaa preocupada com um poss´ıvel recall de seu carro mais vendido.
+Se houver um recall, h´a 0,25 de probabilidade de que o defeito seja no sistema de freios; 0,18 de
+que seja na transmiss˜ao; 0,17 de que seja no sistema de combust´ıvel e 0,4 de que seja em alguma
+outra parte.
+
+a) Qual a probabilidade de que o defeito esteja nos freios ou no sistema de combustivel, se a probabilidade de defeitos em ambos os sistemas simultaneamente é de 0,15? 
+
+- P(F ∪ C) = P(F) + P(C) - P(F ∩ C) = 0,25 + 0,17 - 0,15 = 0,27
+
+onde 0,25 é a probabilidade de defeito nos freios, 0,17 é a probabilidade de defeito no sistema de combustivel e 0,15 é a probabilidade de defeito nos freios e no sistema de combustivel.
+
+b) Qual a probabilidade de que nao haja defeitos nem no sistema de freios nem no sistema de combustivel? 
+
+- P(F' ∩ C') = 1 - P(F ∪ C) = 1 - 0,27 = 0,73
+
+---
+Se A ´e um evento no qual um condenado cometeu assalto `a m˜ao armada e D ´e o evento no qual
+o condenado vendeu drogas, enuncie em palavras as probabilidades expressas por:
+
+a) P(A|D) 
+
+- Probabilidade de que o condenado cometeu assalto `a m˜ao armada dado que vendeu drogas.
+
+b) P(Ã|D)
+
+- Probabilidade de que o condenado não cometeu assalto `a m˜ao armada dado que vendeu drogas.
+
+c) P(~A|~D) 
+
+- Probabilidade de que o condenado não cometeu assalto `a m˜ao armada dado que não vendeu drogas.
+
+d) P(A|~D)
+
+- Probabilidade de que o condenado cometeu assalto `a m˜ao armada dado que não vendeu drogas.
+
+---
+
+Sejam os eventos
+
+A: O aviao parta na hora certa
+
+B: O aviao chegue na hora certa
+
+Sabendo que P(A) = 0,83, P(B) = 0,82 e P(A ∩ B) = 0,78, calcule:
+
+A) O aviao chegue na hora dado que partiu na hora
+
+- P(B|A) = P(B ∩ A) / P(A) = 0,78 / 0,83 = 0,94
+
+B) O aviao parta na hora dado que chegou na hora
+
+- P(A|B) = P(A ∩ B) / P(B) = 0,78 / 0,82 = 0,95
+
+---
+
+Uma aula de f´ısica avan¸cada tem dez estudantes do primeiro ano, 30 do ´ultimo ano e dez
+formados. O resultado final mostra que trˆes dos alunos do primeiro ano, dez do ´ultimo ano e
+cindo dos formados receberam um A pelo curso. Se um estudante for escolhido aleatoriamente
+nessa aula e for sabido que ele recebeu um A, qual ´e a probabilidade de que seja um aluno do
+´ultimo ano?
+
+- P(U|A) = P(U ∩ A) / P(A) = 10/18 = 0,56
+
+U = estudante do ultimo ano
+
+A = recebeu um A
+
+---
+
+Uma amostra aleat´oria de 200 adultos ´e classificada pelo seu sexo e n´ıvel de instru¸c˜ao
+
+| Nível de Instrução | Masculino | Feminino |
+|-------------------|----------|----------|
+| Elementar         | 38       | 45       |
+| Secundário        | 28       | 50       |
+| Universitário     | 22       | 17       |
+
+Se uma pessoa desse grupo for escolhida aleatoriamente, determine a probabilidade de que:
+
+a) A pessoa seja homem e tenha recebido educação secundaria
+
+- P(M ∩ S) = 28/200 = 0,14
+
+b) A pessoa não tenha nivel universitario e seja mulher
+
+- P(~U ∩ F) = 95/200 = 0,475
+
+Onde ~U é o complementar de U
+E U é o conjunto de pessoas com nivel universitario e F é o conjunto de pessoas do sexo feminino.
+
+c)A pessoa seja homem e tenha nivel universitario 
+
+- P(M ∩ U) = 22/200 = 0,11
+
+d) A pessoa seja mulher dado que tenha nivel universitario 
+
+- P(F|U) = P(F ∩ U) / P(U) = 17/39 = 0,44
+
+e) A pessoa tenha nivel elementar dado que seja homem
+
+- P(E|M) = P(E ∩ M) / P(M) = 38/78 = 0,43
+
+---
+Em um experimento para estudar a rela¸c˜ao entre a hipertens˜ao e os h´abitos de fumo, foram
+coletados os seguintes dados de 180 individuos:
+
+|                   | Não Fumantes | Fumantes Moderados | Fumantes Intensos |
+|-------------------|--------------|--------------------|-------------------|
+| Hipertensos       | 21           | 36                 | 30                |
+| Não Hipertensos   | 48           | 26                 | 19                |
+
+
+a) Esteja sofrendo de hipertensão dado que é um fumante intenso.
+
+- P(H|I) = P(H ∩ I) / P(I) = 30/49 = 0,61
+
+b) Seja um não fumante dado que não esteja sofrendo de hipertensão.
+
+- P(N|~H) = P(N ∩ ~H) / P(~H) = 48/93 = 0,52
+
+c) Seja um não fumante e hipertenso
+
+- P(N ∩ H) = 21/180 = 0,12
+
+d) SEja um fumante intenso e hipertenso
+
+- P(I ∩ H) = 30/180 = 0,17
+
+---
+
+A probabilidade de que um m´edico fa¸ca o diagn´ostico correto de uma doen¸ca ´e de 0,7. Dado
+que o m´edico fez um diagn´ostico incorreto, a probabilidade de que o paciente entre com um
+processo ´e de 0,9. Qual ´e a probabilidade de que o m´edico erre o diagn´ostico e seja processado
+pelo paciente?
+
+- P(E ∩ P) = P(E) * P(P|E) = 0,3 * 0,9 = 0,27
+
+E = erro no diagnostico
+
+P = paciente entra com um processo
+
+---
+
+Uma urna contem 4 bolas brancas e 3 bolas pretas. Retiram-se 3 bolas com reposi¸c˜ao. Seja X :
+n´umero de bolas pretas. Determine a distribui¸c˜ao de probabilidades de X.
+
+X: número de bolas pretas.
+
+$X \sim B(3; 3/7)$
 
