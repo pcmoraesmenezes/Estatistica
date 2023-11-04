@@ -424,3 +424,410 @@ conte com o plano de aposentadoria complementar da empresa?
 
 P(B|A) = P(B ∩ A) / P(A) = 200/200 = 1
 
+## Variavel aleatoria
+
+Uma variavel aleatoria é uma função que associa a cada elemento do espaço amostral um número real.
+
+Uma quantidade X, associada a cada resultado possível do espaço amostral, é denominado variavel aleatoria discreta, se X assumir uma quantidade enumeravel de valores. Por exemplo, o número de caras em 3 lançamentos de uma moeda. Por outro lado uma variavel aleatoria é denominada variavel aleatoria continua se X assumir uma quantidade não enumeravel de valores. Por exemplo, o tempo de vida de uma bateria.
+
+Exemplo:
+
+Observar o estado de 3 equipamentos de um laboratório e determinar sua condição (DEFEITO -
+D ou BOM - B)
+
+Ω = {DDD, DDB, DBD, DBB, BDD, BDB, BBD, BBB}
+
+EVENTOS:
+
+- Ter exatamente 2 equipamentos em bom estado:
+    E1 = {DBB, BDB, BBD}
+
+- Ter 2 ou mais equipamentos em bom estado:
+    E2 = {DBB, BDB, BBD, BBB}
+
+- Complemento de 3 defeituosos:
+    E3 = {DDD}
+
+X = numero de equipamentos em bom estado {0, 1, 2, 3}.
+
+P(E1) = P(X=2)
+
+P(E2) = P(X>=2)
+
+Variaveis aleatorias usualmente são denotadas por letras maiusculas, por exemplo, X, Y, Z, etc.
+
+### Distribuição de probabilidade
+
+É uma tabela que relaciona os valores assumidos pela variavel aleatoria X com suas respectivas probabilidades.
+
+$f:X \rightarrow P(X=x)$ 
+
+Exemplo:
+
+| X | P(X=x) |
+|---|--------|
+| 0 | 0,125  |
+| 1 | 0,375  |
+| 2 | 0,375  |
+| 3 | 0,125  |
+
+## Distribuição Binomial
+
+Frequentemente usada para descrever situações em que a variavel de uma população em estudo tem duas respostas possíveis (sucesso ou fracasso). Constituem do processo de Bernoulli.
+
+### Processo de Bernoulli
+
+É um processo aleatório que consiste em n ensaios independentes, cada um deles com dois resultados possíveis, sucesso ou fracasso.
+
+Cada experimento é dito ser uma tentativa. O resultado de cada tentativa é chamado de resultado do experimento.
+
+A probabilidade de sucesso é igual a p e a probabilidade de fracasso é igual a q = 1 - p.
+
+Os resultados são estatisticamente independentes.
+
+Quando um experimento aleatório com apenas 2 resultados possíveis (sucesso ou fracasso) é repetido
+"n"vezes, a variável aleatória discreta definida como:
+X: número de sucessos ocorridos em "n"tentativas (ou experimentos).
+Tem uma distribuição da forma:
+
+$f(x) = \binom{n}{x} p^x (1-p)^{n-x}$
+
+Onde:
+
+- n é o número de tentativas (ou experimentos)
+
+- x é o número de sucessos
+
+- p é a probabilidade de sucesso
+
+- q é a probabilidade de fracasso
+
+- p + q = 1
+
+- $ \binom{n}{x} = \frac{n!}{x!(n-x)!}$
+
+
+Exemplo:
+
+ Sabe-se que a probabilidade de eficiência da vacina anti-gripal para idosos é de 80%. Num grupo
+de 10 idosos imunizados com a vacina anti-gripal, determine a probabilidade dos eventos:
+
+- De que exatamente 6 idosos imunizados não tenham gripe.
+
+- De que no máximo 5 idosos imunizados não tenham gripe
+
+- De que mais de 7 idosos imunizados não tenham gripe.
+
+Importante:
+
+Identificar a variavel aleatoria, sua distribuição com respectivos parametros.
+
+Escrever a questão na notação de probabilidade
+
+X: número de idosos que não contraíram gripe no grupo de 10 idosos imunizados com a vacina anti-gripal.
+
+A aplicação da vacina em
+cada idoso pode ser considerado como um ensaio que pode produzir apenas dois resultados: o idoso ter gripe
+ou o idoso não ter gripe. O fato de um idoso imunizado ter ou não gripe não interfere na chance de outro idoso
+imunizado contrair ou não a gripe, ou seja, o ensaios são independentes.
+
+Trata-se de uma distribuição binomial com n = 10, p = 0,8 e q = 0,2.
+
+Onde n é o número de tentativas (ou experimentos), p é a probabilidade de sucesso e q é a probabilidade de fracasso.
+
+$X \sim B(10; 0,8)$
+
+Item a:
+
+P(X=6) = $\binom{10}{6} 0,8^6 (1-0,8)^{10-6}$ = 0,0881
+
+Item b:
+
+P(X<=5) = 0,0328
+
+Item c:
+
+P(X>7) = 0,6778
+
+## Distribuição de Poisson
+
+É uma distribuição de probabilidade discreta que expressa a probabilidade de uma série de eventos ocorrer num certo período de tempo se estes eventos ocorrem com uma taxa média conhecida e independente do tempo desde o último evento.
+
+A função X é uma variavel aleatoria discreta que assume valores inteiros não negativos. Tem-se a seguinte forma:
+
+$f(x) = \frac{e^{-\lambda} \lambda^x}{x!}$
+
+Onde:
+
+- $\lambda$ é o número médio de eventos ocorrendo num intervalo de tempo especificado
+
+- x é o número de eventos ocorrendo num intervalo de tempo especificado
+
+- e é o número de Euler
+
+Exemplo: Sabe-se que o número médio de interrupções do serviço de internet a cada mês (4 semanas) é de
+10 interrupções, qual é a probabilidade de que:
+
+- Em uma semana ocorra, exatamente, 1 interrupção do serviço de internet ?
+
+- Em uma semana ocorram, no máximo, 2 interrupções do serviço de internet?
+
+- Em uma semana ocorram mais de 2 interrupções do serviço de internet?
+
+A variavel aleatoria X é o número de interrupções do serviço de internet em uma semana.
+
+$X \sim Poisson(\lambda)$
+
+O valor de $\lambda$ é o numero medio de interrupções do serviço de internet a cada mês (4 semanas) é de 10 interrupções.
+
+$\lambda = 10/4 = 2,5$
+
+Item a:
+
+P(X=1) = $\frac{e^{-2,5} 2,5^1}{1!}$ = 0,2052
+
+Item b:
+
+P(X<=2) = 0,5438
+
+Item c:
+
+P(X>2) = 0,4562
+
+
+## Exercicios:
+
+Para todos os exercícios, identificar a variável aleatória, sua distribuição com respectivos parâmetros e escrever a questão na notação de probabilidade
+
+ Um laboratório químico encomendou uma remessa de 400 pHmetros. O fabricante sabe que 40 pHmetros enviados estão defeituosos. O laboratório inspecionará de 20 pHmetros escolhidos aleatoriamente e somente aceitará a remessa se ocorrer no máximo um pHmetro defeituoso. Qual a probabilidade de:
+
+a) A remessa ser aceita?
+
+b) Ter nenhum defeituoso?
+
+c) Ter mais de 5 defeituosos?
+
+X: número de pHmetros defeituosos em uma amostra de 20 pHmetros.
+
+$X \sim B(20; 0,1)$
+
+0,1 é a probabilidade de um pHmetro ser defeituoso.
+
+a) P(X<=1) = 0,9887
+
+b) P(X=0) = 0,1216
+
+c) P(X>5) = 0,0000
+
+
+Uma remessa de 800 estabilizadores de tensão é recebida pelo controle de qualidade de uma empresa. São inspecionados 20 aparelhos da remessa, que será aceita se ocorrer no máximo um defeituoso. Há 80 defeituosos no lote. Qual a probabilidade do lote ser aceito?
+
+X: número de estabilizadores defeituosos em uma amostra de 20 estabilizadores.
+
+$X \sim B(20; 0,1)$
+
+0,1 é a probabilidade de um estabilizador ser defeituoso.
+
+P(X<=1) = 0,9887
+
+. Em momentos de pico chegam, em média, 1 avião por minuto em um determinado aeroporto.
+
+(a) Determine a probabilidade de 3 chegadas em um minuto qualquer do horário de pico.
+
+(b) Determine a probabilidade de que nenhum avião chegue nesse aeroporto no horário de pico.
+
+(c) Se o aeroporto pode atender 2 aviões por minuto, qual a probabilidade de haver aviões sem atendimento imediato?
+
+X: número de aviões que chegam em um minuto qualquer do horário de pico.
+
+$X \sim Poisson(1)$
+
+1 é o número médio de aviões que chegam em um minuto qualquer do horário de pico.
+
+(a) P(X=3) = 0,0613
+
+(b) P(X=0) = 0,3679
+
+(c) P(X>2) = 0,3233
+
+Sabe-se que 60% dos camundongos inoculados com soro estão protegidos contra determinada doença. Se cinco camundongos são inoculados, determine a probabilidade de que:
+
+X: número de camundongos protegidos contra determinada doença.
+
+$X \sim B(5; 0,6)$
+
+0,6 é a probabilidade de um camundongo estar protegido contra determinada doença.
+
+(a) P(X=0) = 0,0102
+
+(b) P(X<2) = 0,0784
+
+(c) P(X>3) = 0,3456
+
+(d) P(X>=4) = 0,2304
+
+
+Uma certa doença pode ser curada através de procedimento cirúrgico em 80% dos casos. Dentre os que têm essa doença, sorteamos 15 paciente que serão submetidos à cirurgia. Fazendo alguma suposição adicional que julgar necessária, responda qual é a probabilidade de:
+
+X: número de pacientes curados dentre os 15 que serão submetidos à cirurgia.
+
+$X \sim B(15; 0,8)$
+
+0,8 é a probabilidade de um paciente ser curado.
+
+(a) P(X=15) = 0,0352
+
+(b) P(X>=2) = 0,9999
+
+(c) P(X>=10) = 0,9999
+
+A aplicação de fundo anticorrosivo em chapas de aço é feita mecanicamente e pode produzir, em média, 3 defeitos por m2 . Uma chapa de 4 m2 é sorteada ao acaso para ser inspecionada. Qual é a probabilidade:
+
+X: número de defeitos em uma chapa de 4 m2.
+
+$X \sim Poisson(12)$
+
+12 é o número médio de defeitos em uma chapa de 4 m2.
+
+(a) P(X>=1) = 0,9999
+
+(b) P(X>=3) = 0,9999
+
+(c) P(X<=6) = 0,9999
+
+(d) P(2<=X<=6) = 0,9999
+
+(e) P(X<=1) = 0,9999
+
+Uma indústria de seringas garante que em 95% dos pedidos atendidos, os clientes ficam plenamente satisfeitos com o prazo de entrega e com a qualidade do produto. Uma drogaria fez 10 pedidos a essa indústria.
+
+(a) Qual a probabilidade de que fique plenamente satisfeito nos dez pedidos?
+
+(b) Qual a probabilidade de que fique plenamente satisfeito em oito pedidos?
+
+(c) Qual a probabilidade de que fique plenamente satisfeito, no mínimo, em seis pedidos?
+
+(d) Qual a probabilidade de que fique plenamente satisfeito, no mínimo, em oito pedidos?
+
+X: número de pedidos em que os clientes ficam plenamente satisfeitos com o prazo de entrega e com a qualidade do produto.
+
+$X \sim B(10; 0,95)$
+
+0,95 é a probabilidade de um pedido ser plenamente satisfeito com o prazo de entrega e com a qualidade do produto.
+
+(a) P(X=10) = 0,5987
+
+(b) P(X=8) = 0,0000
+
+(c) P(X>=6) = 0,9999
+
+(d) P(X>=8) = 0,0000
+
+Numa cidade ouviu-se a opinião de 60 adultos sobre um projeto de lei proposto pela prefeitura. Os adultos pesquisados só poderiam responder "a favor"ou "contra". Como resultado, observou-se que 40 dos adultos pesquisados foram a favor do projeto. Se na realidade as opiniões pró e contra são igualmente divididas, qual é a probabilidade de ter obtido tal resultado?
+
+X: número de adultos que foram a favor do projeto.
+
+$X \sim B(60; 0,5)$
+
+0,5 é a probabilidade de um adulto ser a favor do projeto.
+
+P(X=40) = 0,0000
+
+Sabe-se que 20% dos animais submetidos a um certo tratamento não sobrevivem. Se esse tratamento foi aplicado em 20 animais e se X é o número de não sobreviventes:
+
+(a) Qual é a distribuição de X?
+
+(b) Calcule P(X = 0)
+
+(c) Calcule P(2 < X ≤ 4)
+
+(d) Calcule P(X ≥ 2)
+
+X: número de animais que não sobreviveram.
+
+$X \sim B(20; 0,2)$
+
+0,2 é a probabilidade de um animal não sobreviver.
+
+(b) P(X=0) = 0,0000
+
+(c) P(2 < X ≤ 4) = 0,0000
+
+(d) P(X >= 2) = 0,0000
+
+O número de partículas gama emitidas por segundo, por uma certa substância radioativa, é uma variável aleatória com distribuição de Poisson com λ = 0, 3. Se o instrumento registrador torna-se inoperante quando há mais de 4 partículas por segundo, qual a probabilidade de isso ocorrer em qualquer dado segundo?
+
+X: número de partículas gama emitidas por segundo.
+
+$X \sim Poisson(0,3)$
+
+0,3 é o número médio de partículas gama emitidas por segundo.
+
+P(X>4) = 0,0000
+
+## Distribuição de probabilidade continua
+
+Associada a uma variavel aleatoria continua X, existe uma função f(x) chamada de função densidade de probabilidade (fdp) ou função densidade de frequência (fdf), que satisfaz as seguintes condições:
+
+- f(x) >= 0 para todo x
+
+- $\int_{-\infty}^{\infty} f(x) dx = 1$
+
+- P(a <= X <= b) = $\int_{a}^{b} f(x) dx$
+
+### Distribuição normal ou gaussiana
+
+É a mais importante distribuição de variáveis aleatórias contínuas, devido à sua enorme aplicação nos mais
+variados campos do conhecimento.
+"Qualquer que seja a variável aleatória em estudo, é necessário reconhecer primeiro, qual é a função de
+densidade de probabilidades (fdp) associada a ela."
+
+A função de densidade de probabilidades (fdp) de uma variável aleatória contínua X é dada por:
+
+$f(x) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$
+
+Onde:
+
+- $\mu$ é a média da variável aleatória X
+
+- $\sigma$ é o desvio padrão da variável aleatória X
+
+- $\sigma^2$ é a variância da variável aleatória X
+
+- $\pi$ é o número de Euler
+
+- e é o número de Euler
+
+- $-\infty < x < \infty$
+
+- $-\infty < \mu < \infty$
+
+Calculando a probabilidade de um intervalo com distribuição normal:
+
+Sabe-se que o tempo de duração de uma certa bateria (Marca WW) têm uma distribuição Normal com
+média 200 horas e desvio padrão 20 horas. Qual a probabilidade de que uma bateria escolhida ao acaso desta
+população tenha:
+
+a) um tempo de duração inferior a 225h.
+
+b) um tempo de duração superior a 225h.
+
+c) tempo de duração entre 200h e 225h .
+
+X: tempo de duração de uma certa bateria (Marca WW) têm uma distribuição Normal com média 200 horas e desvio padrão 20 horas.
+
+USANDO O SOFTWARE R + RCMDR:
+
+ETAPAS:
+
+1. DISTRIBUIÇÃO CONTINUA
+
+2. DISTRIBUIÇÃO NORMAL
+
+3. PROBABILIDADE DA NORMAL
+
+A) 0.89
+
+B) 0.11
+
+C) 0.39
