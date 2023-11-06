@@ -121,7 +121,7 @@ $IC_{1-α}(\pi) = \left( \bar{p} - z\left(\frac{α}{2}\right) \sqrt{\frac{\bar{p
 
 ### Exemplo
 
-Um instituto promoveu uma pesquisa para saber as intenções de voto de um prefeito de uma cidade. Foi realizada uma amostragem aleatoria de 1000 respostas de eleitores, das quais 410 eram em favor do candidato A. Construa um intervalo de 95% confiança   $IC_{95\%}$ para a proporção de votos $p$ em favor do candidato A.
+Um instituto promoveu uma pesquisa para saber as intenções de voto de um prefeito de uma cidade. Foi realizada uma amostragem aleatoria de 1000 respostas de eleitores, das quais 410 eram em favor do candidato A. Construa um intervalo de 95% confiança   $IC_{0.95}$ para a proporção de votos $p$ em favor do candidato A.
 
 Assim temos:
 
