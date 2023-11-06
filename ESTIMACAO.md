@@ -103,3 +103,50 @@ $IC_{1-α}(µ) = \left( 3,22, 6,28 \right)$
 
 Existe 95% de chance de a média amostral estar contida no intervalo de confiança.
 
+### Intervalo de confiança para a proporção $\pi$ - aproximado pela Normal
+
+A população equivale a média, e o intervalo de confiança será parecido com pequenas mudanças.
+
+A busca é construir intervalos de confiança, que estimam e representam incertezas ou imprecisões estatisticas associadas a estimativas de proproções populacionais a partir de uma amostra.
+
+O exemplo típico seria a margem de erro que se coloca em pesquisas eleitorais.
+
+$\bar{\pi}$ = $\bar{p}$ = $\frac{na}{n}$
+
+Onde na é o número de sucessos na amostra e n é o tamanho da amostra.
+
+Considerando $\bar{\pi}$ = $\bar{p}$ e $S^2$ = $\bar{p}(1-\bar{p})$. Seguindo o teorema central do limite:
+
+$IC_{1-α}(\pi) = \left( \bar{p} - z\left(\frac{α}{2}\right) \sqrt{\frac{\bar{p}(1-\bar{p})}{n}}, \bar{p} + z\left(\frac{α}{2}\right) \sqrt{\frac{\bar{p}(1-\bar{p})}{n}} \right)$
+
+### Exemplo
+
+Um instituto promoveu uma pesquisa para saber as intenções de voto de um prefeito de uma cidade. Foi realizada uma amostragem aleatoria de 1000 respostas de eleitores, das quais 410 eram em favor do candidato A. Construa um intervalo de 95% confiança   $IC_{95\%}$ para a proporção de votos $p$ em favor do candidato A.
+
+Assim temos:
+
+$\bar{p} = \frac{410}{1000} = 0,41$
+
+Onde 410 é o número de sucessos na amostra e 1000 é o tamanho da amostra.
+
+Logo
+
+$√p̂(1−p̂) / √n = √0.41(1-0.41) / √1000 = 0.0155$
+
+Um nivel de confiança de 95% significa que $\alpha$ = 0,05.
+
+$\frac{\alpha}{2} = 0,025$
+
+Tomando o valor da tabela temos que 
+
+$z\left(\frac{α}{2}\right) = z\left(0,025\right) = 1,96$
+
+Portanto
+
+$me = z\left(\frac{α}{2}\right) \sqrt{\frac{\bar{p}(1-\bar{p})}{n}} = 1,96 \times 0,0155 = 0,0305$
+
+$IC_{1-α}(\pi) = \left( 0,41 - 0,0305, 0,41 + 0,0305 \right)$
+
+$IC_{1-α}(\pi) = \left( 0,3795, 0,4405 \right)$
+
+Existe 95% de chance de a média amostral estar contida no intervalo de confiança.
