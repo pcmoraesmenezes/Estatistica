@@ -131,7 +131,7 @@ Onde 410 é o número de sucessos na amostra e 1000 é o tamanho da amostra.
 
 Logo
 
-$√p̂(1−p̂) / √n = √0.41(1-0.41) / √1000 = 0.0155$
+$\sqrt{\hat{p}(1-\hat{p})} / \sqrt{n} = \sqrt{0.41(1-0.41)} / \sqrt{1000} = 0.0155$
 
 Um nivel de confiança de 95% significa que $\alpha$ = 0,05.
 
