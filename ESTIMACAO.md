@@ -165,6 +165,8 @@ $me$ = $t_{(n-1, \frac{\alpha}{2})} \times \sqrt{\frac{S}{n}}$
 
 Observe que $me$ depende de n, ou seja a medida que n aumenta, $me$ diminui. Ou seja quanto maior for a amostra menor será a margem de erro, consequentemente maior será a precisão da estimativa.
 
+$S$ é a variância amostral, ou seja, a variância da amostra Quanto maior for a variância amostral, maior será a margem de erro, consequentemente menor será a precisão da estimativa.
+
 ### Exemplo
 
 O pesquisador achou a margem de erro muito elevada e aceita cometer um erro de 0,7mg. Qual deverá ser o tamanho da amostra para se ter um erro de no máximo 0,7mg considerando uma confiabilidade de 95%?
