@@ -150,3 +150,48 @@ $IC_{1-α}(\pi) = \left( 0,41 - 0,0305, 0,41 + 0,0305 \right)$
 $IC_{1-α}(\pi) = \left( 0,3795, 0,4405 \right)$
 
 Existe 95% de chance de a média amostral estar contida no intervalo de confiança.
+
+### Dimensionamento da Amostra
+
+O termo: 
+
+$t_{(n-1, \frac{\alpha}{2})} \times \sqrt{\frac{S}{n}}$
+
+
+pode ser interpretado, como a margem de erro, ou seja, o quanto a média amostral pode variar em relação a média populacional. Tal margem é denominada $me$
+
+$me$ = $t_{(n-1, \frac{\alpha}{2})} \times \sqrt{\frac{S}{n}}$
+
+
+Observe que $me$ depende de n, ou seja a medida que n aumenta, $me$ diminui. Ou seja quanto maior for a amostra menor será a margem de erro, consequentemente maior será a precisão da estimativa.
+
+### Exemplo
+
+O pesquisador achou a margem de erro muito elevada e aceita cometer um erro de 0,7mg. Qual deverá ser o tamanho da amostra para se ter um erro de no máximo 0,7mg considerando uma confiabilidade de 95%?
+
+$me = t_{(n-1, \frac{\alpha}{2})} \times \sqrt{\frac{S}{n}}$
+
+$n$ = $\left( \frac{t_{(n-1, \frac{\alpha}{2})} \times \sqrt{S}}{me} \right)^2$
+
+$\alpha$ = $0,05$
+
+$\frac{\alpha}{2}$ = $0,025$
+
+$t_{(n-1, \frac{\alpha}{2})}$ = $t_{(7, 0,025)}$ = $2,365$
+
+$me = 0,7$
+
+$n = \left( \frac{2,365 \times 1,83}{0,7} \right)^2 = 38,2$
+
+$n$ &asymp; $39$
+
+### Casos de pequenas populações
+
+Existem casos onde a população é pequena e finita, ou seja, $\frac{n}{N} < 0,05$.
+
+Nesses casos é recomendado utilizar um fator de correção
+
+$FC = \frac{N-n}{N-1}$
+
+Onde N é o tamanho da população e n é o tamanho da amostra.
+
