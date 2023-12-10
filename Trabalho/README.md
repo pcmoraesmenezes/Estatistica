@@ -13,4 +13,4 @@ Foi disponibilizada uma base de dados [Pode ser encontrada aqui](/Trabalho/trab.
 
 A aplicação foi feita em Python, e as questões foram respondidas utilizando a biblioteca Pandas, Scipy, Numpy, Scikit-learn e Matplotlib.
 
-O código pode ser encontrado [aqui](Trabalho/estatistica.ipynb).
+O código pode ser encontrado [aqui](/Trabalho/estatistica.ipynb).
