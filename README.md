@@ -111,4 +111,4 @@ Parâmetro: Valor que representa a população.
 
 ## Para acessar o conteúdo relativo a ESTIMAÇÃO CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/ESTIMACAO.md)
 
-## Trabalho realizado na disciplina pode ser acessadp [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/Trabalho/README.md)
+## Trabalho realizado na disciplina pode ser acessado [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/Trabalho/README.md)
