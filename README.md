@@ -110,3 +110,5 @@ Parâmetro: Valor que representa a população.
 ## Para acessar o conteúdo relativo a PROBABILIDADE CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/PROBABILIDADE.md)
 
 ## Para acessar o conteúdo relativo a ESTIMAÇÃO CLIQUE [AQUI](https://github.com/pcmoraesmenezes/Estatistica/blob/main/ESTIMACAO.md)
+
+## Trabalho realizado na disciplina pode ser acessadp [AQUI](
